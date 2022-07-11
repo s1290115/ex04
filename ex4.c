@@ -4,7 +4,11 @@
 
 int main(){
   int i,countt=0,countf=0;
-
+  char name[20];
+  printf("who are you?\n");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
+  
   srand((int)time(NULL));
   printf("Tossing a coin...\n");
   for(i=1;i<=3;i++){
